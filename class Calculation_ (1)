@@ -1,0 +1,20 @@
+class Calculation:
+    def __init__(self,n1,n2,sing):
+        self.n =n1
+        self.nu=n2
+        self.sing=sing
+        
+    def result(self):  
+        if self.sing =="+":
+           print(n1+n2)
+           
+        if self.sing =="-":
+           print(n1-n2)
+           
+        if self.sing =="*":
+           print(n1*n2) 
+           
+        if self.sing =="/":
+           print(n1/n2)
+obj=Calculation(7,8,"+")
+obj.result()
